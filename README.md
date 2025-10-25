@@ -8,6 +8,22 @@ Gedaan
 TeDoen
 ```
 
+# Als je hier een component van wil gebruiken
+
+Als je van dit project een component wil overnemen, maak dan in de map main een nieuwe file "idf_component.yml" aan 
+(als je dat nog niet had)
+En voeg onderstaande tekst hierin toe (dit is het voorbeeldje voor de gpio files)
+
+```
+dependencies:
+
+  myGPIO:
+    path: components/myGPIO
+    git: git@github.com:KNaelaerts/ESP32_Periferie.git
+
+```
+
+
 
 # omgang moet git
 ### 1ste keer
