@@ -46,7 +46,7 @@ void myGPIO_KNOP_Setup(int pin)
 
 static void IRAM_ATTR KNOP_ISR(void* arg)
 {
-
+    //hier moet je dus de actie bij interrupt schrijven maar houd ze kort
 }
 
 #endif
