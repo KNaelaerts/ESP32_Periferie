@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "myADC.h"
 #include "esp_adc/adc_oneshot.h"
+#include "esp_adc/adc_cali.h"
 
 #define ADC_CALIBRATION 1
 
