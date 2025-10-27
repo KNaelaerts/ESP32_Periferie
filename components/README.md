@@ -1,5 +1,23 @@
-dit is een voorbeeldje om de werking van de GPIO te laten zien
+# Basis componenten
+deze componenten zijn gemaakt met als doel eenvoudige voorbeeldjes te hebben bij de verschillende basis periferie's van de ESP32 controller
 
-CMAKE => REQUIRES
-ISR functie ATTR
-en ISR functie schrijven
+| Periferie     | basis | gevorderd
+|---------------|-------|--------------------
+| ADC           | x     | continuous niet opgenomen
+| DAC           | x     | DAC en Cosinus niet opgenomen
+| Clock Tree    | /     |
+| GPIO          | x     | 
+| GPTimer       | /     |
+| I2C           | /     |
+| I2S           | /     |
+| LCD           | /     |
+| LEDC          | /     |
+| MCPWM         | /     |
+| PCNT          | /     |
+| RMT           | /     |
+| SPI           | /     |
+| SDM           | /     |
+| Secure        | /     |
+| touch         | /     |
+| TWAI          | /     |
+| UART          | /     |

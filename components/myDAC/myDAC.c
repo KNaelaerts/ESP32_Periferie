@@ -20,4 +20,5 @@ dac_oneshot_new_channel(&chan_cfg, &dac_handle);
 void myDAC_WriteVoltage(int value)
 {
     dac_oneshot_output_voltage(dac_handle,value);
+    
 }
