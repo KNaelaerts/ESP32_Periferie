@@ -7,7 +7,7 @@ deze componenten zijn gemaakt met als doel eenvoudige voorbeeldjes te hebben bij
 | DAC           | x     | DAC en Cosinus niet opgenomen
 | Clock Tree    | /     |
 | GPIO          | x     | 
-| GPTimer       | /     |
+| GPTimer       | x     |
 | I2C           | /     |
 | I2S           | /     |
 | LCD           | /     |
