@@ -2,11 +2,6 @@
 mijn bedoeling met deze git is om een overzicht te maken hoe je met de nodige periferie van ESP en IDF omgaat.
 Door eigen componenten te maken heb je een kort en bondig overzicht van een implementatie
 
-```
-Gedaan
-- GPIO 
-TeDoen
-```
 
 # Als je hier een component van wil gebruiken
 

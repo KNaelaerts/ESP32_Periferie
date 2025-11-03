@@ -11,7 +11,7 @@ deze componenten zijn gemaakt met als doel eenvoudige voorbeeldjes te hebben bij
 | I2C           | /     |
 | I2S           | /     |
 | LCD           | /     |
-| LEDC          | /     |
+| LEDC          | x     |
 | MCPWM         | /     |
 | PCNT          | /     |
 | RMT           | /     |
@@ -20,4 +20,4 @@ deze componenten zijn gemaakt met als doel eenvoudige voorbeeldjes te hebben bij
 | Secure        | /     |
 | touch         | /     |
 | TWAI          | /     |
-| UART          | /     |
+| UART          | x     | Nog de que afhandeling voor read doen

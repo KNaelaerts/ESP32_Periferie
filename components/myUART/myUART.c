@@ -7,12 +7,11 @@
 
 void myUART_setup(int baud)
 {
-    //pin config
-    uart_set_pin(uart_num, 4, 5, 18, 19);    // Set UART pins(TX: IO4, RX: IO5, RTS: IO18, CTS: IO19)
+   
     
     //uart config
     uart_config_t uart_config = {
-    .baud_rate = 115200,
+    .baud_rate = baud,
     .data_bits = UART_DATA_8_BITS,
     .parity = UART_PARITY_DISABLE,
     .stop_bits = UART_STOP_BITS_1,
@@ -20,14 +19,23 @@ void myUART_setup(int baud)
     .rx_flow_ctrl_thresh = 122,
 };
     uart_param_config(uart_num, &uart_config);
+     
+    //pin config
+    uart_set_pin(uart_num, 1, 3, -1, -1);    // Set UART pins(TX: IO4, RX: IO5, RTS: IO18, CTS: IO19)
     
     //driver install
     
     QueueHandle_t uart_queue;
-    uart_driver_install(UART_NUM_2, 1024, 1024, 10, &uart_queue, 0);
+    uart_driver_install(uart_num, 1024, 1024, 10, &uart_queue, 0);
 
 
 }
+
+
+
+
+
+
 void myUART_printf(const char *fmt, ...) 
 {
     char buf[256]; // Adjust size as needed
