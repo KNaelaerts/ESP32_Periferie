@@ -7,6 +7,7 @@ Door eigen componenten te maken heb je een kort en bondig overzicht van een impl
 
 Als je van dit project een component wil overnemen, maak dan in de map main een nieuwe file "idf_component.yml" aan 
 (als je dat nog niet had)
+
 VOOR HTTPS:
 En voeg onderstaande tekst hierin toe (dit is het voorbeeldje voor de gpio files)
 
