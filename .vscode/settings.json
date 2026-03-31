@@ -10,5 +10,9 @@
     "IDF_TARGET": "esp32"
   },
   "idf.portWin": "COM12",
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "files.associations": {
+    "freertos.h": "c",
+    "freertosconfig.h": "c"
+  }
 }
