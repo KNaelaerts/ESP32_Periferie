@@ -15,7 +15,7 @@ dependencies:
 
   myGPIO:
     path: components/myGPIO
-    git: git@github.com:KNaelaerts/ESP32_Periferie.git
+    git: https://github.com/KNaelaerts/ESP32_Periferie.git
 
 ```
 
