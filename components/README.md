@@ -19,7 +19,7 @@ deze componenten zijn gemaakt met als doel eenvoudige voorbeeldjes te hebben bij
 | SDM           | /     |
 | Secure        | /     |
 | touch         | /     |
-| TWAI          | /     |
+| TWAI          | x     | MCP230008
 | UART          | x     | Nog de que afhandeling voor read doen
 
 # Toevoeging van gecombineerde elementen
